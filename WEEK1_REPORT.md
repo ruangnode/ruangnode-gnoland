@@ -40,7 +40,8 @@ This week focused on validator operations for the test13 network — setting up 
 - GNOROOT required by read-only commands (`config init`, `secrets get`) — should resolve lazily
 - Operator vs signing address distinction unclear — error message needs to be more explicit
 
-Full details: [`validator-setup/test13-setup-feedback.md`](./validator-setup/test13-setup-feedback.md)
+Full setup guide: [`docs/test13-validator-setup-guide.md`](./docs/test13-validator-setup-guide.md)  
+Issue details: [`validator-setup/test13-setup-feedback.md`](./validator-setup/test13-setup-feedback.md)
 
 ---
 
