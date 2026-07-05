@@ -22,15 +22,19 @@ This week focused on hands-on validator operations and technical feedback for th
 - Documented **10 distinct issues** encountered during setup, each with: error, root cause, resolution, and improvement suggestion
 - Full report: [`validator-setup/test13-setup-feedback.md`](./validator-setup/test13-setup-feedback.md)
 
-**On-chain registration:**
+**On-chain transactions:**
 
-| Field | Value |
-|-------|-------|
-| Tx Hash | `djH4sWX8UfPowTziqVFD6VSxJuJlRdKPDbUUXuK8n4s=` |
-| Block | 381402 |
-| Date | 2026-06-22 |
-| Operator Address | `g1l3fmz59rw8l6h29hslxt6gtna3th8s7m5vl88d` |
-| Explorer | [GnoScan](https://gnoscan.io/transactions/details?txhash=djH4sWX8UfPowTziqVFD6VSxJuJlRdKPDbUUXuK8n4s=) |
+| Action | Tx Hash | Block | Explorer |
+|--------|---------|-------|----------|
+| Register validator | `djH4sWX8UfPowTziqVFD6VSxJuJlRdKPDbUUXuK8n4s=` | 381402 | [GnoScan](https://gnoscan.io/transactions/details?txhash=djH4sWX8UfPowTziqVFD6VSxJuJlRdKPDbUUXuK8n4s=) |
+| UpdateDescription | `VEs16ZtOuJDKqwuvB0RousZ3sppTW7q7EXv5ARq1e8w=` | 381676 | [GnoScan](https://gnoscan.io/transactions/details?txhash=VEs16ZtOuJDKqwuvB0RousZ3sppTW7q7EXv5ARq1e8w=) |
+
+**Operator Address:** `g1l3fmz59rw8l6h29hslxt6gtna3th8s7m5vl88d`
+
+**Validator profile submitted on-chain:**
+- Active on 6 networks: AtomOne, Avail, Union, Espresso, CrossFi, Dora Vota
+- Bare-metal infrastructure with snapshot & public RPC services
+- Focus: Indonesian and Southeast Asian community onboarding
 
 **Key issues surfaced:**
 - GNOROOT detection and validation gaps
@@ -63,7 +67,8 @@ This week focused on hands-on validator operations and technical feedback for th
 |------|---------|
 | Validator setup feedback (10 issues) | [`validator-setup/test13-setup-feedback.md`](./validator-setup/test13-setup-feedback.md) |
 | Validator registration tx | `djH4sWX8UfPowTziqVFD6VSxJuJlRdKPDbUUXuK8n4s=` — [view on gnoscan](https://gnoscan.io/transactions/details?txhash=djH4sWX8UfPowTziqVFD6VSxJuJlRdKPDbUUXuK8n4s=) |
-| Validator registration details | [`evidence/week1/validator-registration-tx.md`](./evidence/week1/validator-registration-tx.md) |
+| Validator registration tx | [`evidence/week1/validator-registration-tx.md`](./evidence/week1/validator-registration-tx.md) |
+| Validator UpdateDescription tx | [`evidence/week1/validator-update-description-tx.md`](./evidence/week1/validator-update-description-tx.md) |
 
 ---
 
