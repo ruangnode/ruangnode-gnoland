@@ -57,3 +57,4 @@ This repository documents my activities as a Gno.land Ambassador — real, execu
 ## Weekly Reports
 
 - [Week 1](./WEEK1_REPORT.md)
+- [Week 2](./WEEK2_REPORT.md)
