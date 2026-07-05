@@ -16,6 +16,19 @@ This week focused on hands-on realm development — building and deploying a Gno
 
 ### 1. Realm Development & Deployment (test13)
 
+**What is a Realm?**
+
+A realm is Gno.land's equivalent of a smart contract, written in Gnolang (a deterministic, interpreted variant of Go). Unlike smart contracts on other chains that are only accessible via ABI calls, realms are also accessible directly via a URL in any browser — they can render content like a web page while maintaining on-chain state.
+
+For example, the counter realm deployed this week is live at:
+`https://test13.testnets.gno.land/r/nym-ruangnode001/counter`
+
+Anyone can open this URL and see the current count. Anyone can call `Increment()` via a transaction and the state updates permanently on-chain — transparent and tamper-proof.
+
+**Why this matters for ambassador work:**
+
+Realm development is a core skill for onboarding builders to Gno.land. As an ambassador, being able to demo a working realm makes it significantly easier to explain Gno.land's value proposition to developers from other ecosystems (Ethereum, Cosmos, Solana). It also validates that the developer experience works end-to-end — from local setup to on-chain deployment.
+
 Built and deployed a counter realm to test13 — the first on-chain realm under the `ruangnode` identity.
 
 **Steps completed:**
