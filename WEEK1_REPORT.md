@@ -18,8 +18,19 @@ This week focused on hands-on validator operations and technical feedback for th
 
 - Spun up a test13 validator node from scratch to active in the validator set (voting power 1)
 - Separately spun up a second full node for testing and comparison
+- Successfully registered as validator on-chain via `gno.land/r/gnops/valopers`
 - Documented **10 distinct issues** encountered during setup, each with: error, root cause, resolution, and improvement suggestion
 - Full report: [`validator-setup/test13-setup-feedback.md`](./validator-setup/test13-setup-feedback.md)
+
+**On-chain registration:**
+
+| Field | Value |
+|-------|-------|
+| Tx Hash | `djH4sWX8UfPowTziqVFD6VSxJuJlRdKPDbUUXuK8n4s=` |
+| Block | 381402 |
+| Date | 2026-06-22 |
+| Operator Address | `g1l3fmz59rw8l6h29hslxt6gtna3th8s7m5vl88d` |
+| Explorer | [GnoScan](https://gnoscan.io/transactions/details?txhash=djH4sWX8UfPowTziqVFD6VSxJuJlRdKPDbUUXuK8n4s=) |
 
 **Key issues surfaced:**
 - GNOROOT detection and validation gaps
@@ -48,10 +59,11 @@ This week focused on hands-on validator operations and technical feedback for th
 
 ## Evidence
 
-| Item | Location |
-|------|----------|
+| Item | Details |
+|------|---------|
 | Validator setup feedback (10 issues) | [`validator-setup/test13-setup-feedback.md`](./validator-setup/test13-setup-feedback.md) |
-| Terminal outputs & tx evidence | [`evidence/week1/`](./evidence/week1/) |
+| Validator registration tx | `djH4sWX8UfPowTziqVFD6VSxJuJlRdKPDbUUXuK8n4s=` — [view on gnoscan](https://gnoscan.io/transactions/details?txhash=djH4sWX8UfPowTziqVFD6VSxJuJlRdKPDbUUXuK8n4s=) |
+| Validator registration details | [`evidence/week1/validator-registration-tx.md`](./evidence/week1/validator-registration-tx.md) |
 
 ---
 
