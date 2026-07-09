@@ -71,6 +71,19 @@ Built and deployed a counter realm to test13 — the first on-chain realm under 
 
 ---
 
+## Public Services Published
+
+| Service | URL |
+|---------|-----|
+| Validator monitor (all networks) | https://ruangnode.com/monitor |
+| Gno.land test13 setup guide (web) | https://ruangnode.com/testnet-networks/gnoland |
+
+The monitor page shows ruangnode's live validator infrastructure across 8 networks including Gno.land test-13 (block 729,074+, 12 peers, ACTIVE).
+
+The web guide makes the test13 validator setup process publicly accessible to Indonesian and SEA developers who find it via search or community links.
+
+---
+
 ## Evidence
 
 | Item | Link |
@@ -78,6 +91,8 @@ Built and deployed a counter realm to test13 — the first on-chain realm under 
 | Counter realm source | [`realms/counter/counter.gno`](./realms/counter/counter.gno) |
 | Deployment tx details | [`evidence/week2/realm-deployment-tx.md`](./evidence/week2/realm-deployment-tx.md) |
 | Live realm on test13 | https://test13.testnets.gno.land/r/nym-ruangnode001/counter |
+| Validator monitor | https://ruangnode.com/monitor |
+| Web guide | https://ruangnode.com/testnet-networks/gnoland |
 
 ---
 

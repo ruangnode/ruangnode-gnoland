@@ -49,7 +49,9 @@ This repository documents my activities as a Gno.land Ambassador — real, execu
 
 - **Network:** test13
 - **Status:** Active (voting power 1)
-- **Setup guide:** [`docs/test13-validator-setup-guide.md`](./docs/test13-validator-setup-guide.md)
+- **Live monitor:** https://ruangnode.com/monitor
+- **Setup guide (web):** https://ruangnode.com/testnet-networks/gnoland
+- **Setup guide (repo):** [`docs/test13-validator-setup-guide.md`](./docs/test13-validator-setup-guide.md)
 - **Setup feedback (10 issues):** [`validator-setup/test13-setup-feedback.md`](./validator-setup/test13-setup-feedback.md)
 
 ---
